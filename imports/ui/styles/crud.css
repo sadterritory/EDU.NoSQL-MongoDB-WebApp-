@@ -1,0 +1,85 @@
+.open-dialog-button {
+    background-color: #12972e;
+    color: #ffffff;
+    border: none;
+    margin-right: 15px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.open-dialog-button:hover {
+    background-color: #fff;
+    color: #12972e;
+    transition: all 0.5s ease-in 0s;
+}
+
+.dialog-content {
+    border: 2px solid #12972e;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 12px;
+}
+
+.dialog-content label {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0 5px;
+}
+
+.dialog-content button {
+    background-color: #12972e;
+    color: #ffffff;
+    border: none;
+    margin: 0px 5px 10px 5px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dialog-content button:focus {
+    background-color: green;
+    transition: all 0.1s ease-out 0s;
+}
+
+.dialog-content button:not(:active) {
+    background-color: #12972e;
+    transition: all 0.1s ease-out 0.15s;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.table td {
+    text-align: left;
+    padding: 5px 15px;
+    border-bottom: 2px dashed #12972e;
+    border-right: 2px dashed #12972e;
+}
+
+.table th {
+    text-align: left;
+    padding: 5px 15px;
+    border-bottom: 2px dashed #12972e;
+}
+
+.table thead {
+    text-align: center;
+    color: #12972e;
+}
